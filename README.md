@@ -1,9 +1,7 @@
 Esercizio di oggi:
 nome repo: laravel-migration-seeder
-
 Fase 1
 Creiamo una tabella trains e relativa Migration
-
 Ogni treno dovrà avere:
 Azienda
 Stazione di partenza
@@ -14,16 +12,8 @@ Codice Treno
 Numero Carrozze
 In orario
 Cancellato
-
-È probabile che siano necessarie altre colonne per far funzionare la tabella nel modo corretto ;) ... metti ID
-<!-- ok -->
-
+È probabile che siano necessarie altre colonne per far funzionare la tabella nel modo corretto ;) ...
 Inserite inizialmente i dati tramite PhpMyAdmin.
-<!-- ok -->
-
 Create Model relativo ed un Controller per mostrare nella home page tutti i treni che sono in partenza dalla data odierna.
-<!-- ok -->
-
 Fase 2
-Dopo averne definito la struttura inserite dei dati pseudo-reali tramite la classe Faker.
-<!-- ok -->
+Dopo averne definito la struttura inserite dei dati pseudo-reali tramite un Seeder
